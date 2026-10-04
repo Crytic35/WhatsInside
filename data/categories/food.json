@@ -1,0 +1,26 @@
+{
+  "id": "food",
+  "name": "Food & Beverages",
+  "description": "Edible consumer packaged goods, beverages, nutrition, and consumables",
+  "subcategories": [
+    "Snacks",
+    "Biscuits",
+    "Cereals",
+    "Noodles",
+    "Chocolates",
+    "Soft drinks",
+    "Energy drinks",
+    "Sauces",
+    "Frozen foods",
+    "Canned foods",
+    "Dairy",
+    "Plant-based products",
+    "Baby food",
+    "Supplements"
+  ],
+  "keywords": [
+    "nutrition", "serving size", "calories", "fat", "sugar", "protein", "carbohydrate",
+    "ingredients:", "flavor", "sweetener", "edible", "snack", "drink", "syrup", "preservative"
+  ],
+  "regulatory_framework": "FDA / EFSA / Codex Alimentarius food safety guidelines"
+}

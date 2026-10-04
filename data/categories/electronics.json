@@ -1,0 +1,17 @@
+{
+  "id": "electronics",
+  "name": "Electronics / Technical Products",
+  "description": "Electronic cleaners, thermal compounds, flux removers, and battery chemistries",
+  "subcategories": [
+    "Batteries",
+    "Thermal paste",
+    "Contact cleaners",
+    "Electronics cleaning products",
+    "Technical adhesives"
+  ],
+  "keywords": [
+    "isopropyl alcohol", "silicone", "thermal conductivity", "flux remover", "circuit board",
+    "lithium", "alkaline", "dielectric", "anti-static", "pcb"
+  ],
+  "regulatory_framework": "RoHS / REACH / IEC Electronic Safety Standards"
+}

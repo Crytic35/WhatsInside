@@ -1,0 +1,422 @@
+[
+  {
+    "id": "demo-shampoo",
+    "product_name": "Clarifying Gentle Daily Shampoo",
+    "category": "cosmetics",
+    "subcategory": "Shampoo",
+    "description": "Daily balancing formula for hair and scalp with vitamin conditioning.",
+    "raw_text": "Ingredients: Water (Aqua), Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, Panthenol, Fragrance (Parfum), Phenoxyethanol, Citric Acid, Limonene, Linalool.",
+    "is_demo": true,
+    "summary": "A standard cleansing shampoo formulated with surfactant cleansing agents (SLES + CAPB), humectants (glycerin, panthenol), and preservative stabilizers. It contains fragrance compounds (limonene, linalool) which may be relevant for sensitive or reactive scalps.",
+    "ingredients": [
+      {
+        "name": "Water (Aqua)",
+        "canonical_name": "Water",
+        "category": "cosmetics",
+        "function": "Solvent",
+        "why_used": "Acts as the base liquid vehicle to dissolve and disperse all cleansing and conditioning ingredients.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Purified water is the universal dermatological solvent.",
+        "unknown_info": "Specific mineral deionization rating is unstated.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Sodium Laureth Sulfate",
+        "canonical_name": "Sodium Laureth Sulfate",
+        "category": "cosmetics",
+        "function": "Cleansing Surfactant",
+        "why_used": "Lathers quickly and binds to sebum, dirt, and styling residue so they can be washed away with water.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Extensively evaluated by CIR. Milder than SLS, but can cause mild dryness or barrier disruption in prolonged contact.",
+        "unknown_info": "Product-specific active percentage is not disclosed on the label.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "canonical_name": "Cocamidopropyl Betaine",
+        "category": "cosmetics",
+        "function": "Amphoteric Co-Surfactant",
+        "why_used": "Mitigates the harshness of sulfate surfactants while boosting rich foam and texture.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Generally gentle, but trace manufacturing amine impurities can cause allergic contact dermatitis in sensitized individuals.",
+        "unknown_info": "Impurity test levels for residual DMAPA are not disclosed on packaging.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Glycerin",
+        "canonical_name": "Glycerin",
+        "category": "cosmetics",
+        "function": "Humectant",
+        "why_used": "Attracts atmospheric moisture to the hair cuticle and scalp to help counter cleansing dryness.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Proven natural moisturizer with exceptional dermatological safety margin.",
+        "unknown_info": "Exact concentration is undisclosed.",
+        "sources": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835894/"]
+      },
+      {
+        "name": "Sodium Chloride",
+        "canonical_name": "Sodium Chloride",
+        "category": "cosmetics",
+        "function": "Viscosity Modifier",
+        "why_used": "Thickens the liquid shampoo into a rich, easily pourable gel.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Common table salt; alters micelle ionic strength without chemical hazard in rinse-off products.",
+        "unknown_info": "Finished solution salinity.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Panthenol",
+        "canonical_name": "Panthenol",
+        "category": "cosmetics",
+        "function": "Provitamin Conditioner",
+        "why_used": "Penetrates the hair cortex to improve elasticity, moisture retention, and shine.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Provitamin B5; recognized by CIR as non-irritating and deeply restorative.",
+        "unknown_info": "Concentration range is proprietary.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Fragrance (Parfum)",
+        "canonical_name": "Fragrance / Parfum",
+        "category": "cosmetics",
+        "function": "Aroma Blend",
+        "why_used": "Gives the shampoo a pleasant sensory scent and masks base surfactant odors.",
+        "concern_level": "NEEDS ATTENTION",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Proprietary mixture that can cause contact dermatitis or respiratory irritation in sensitive persons.",
+        "unknown_info": "The individual aroma compounds within this blend are undisclosed trade secrets.",
+        "sources": ["https://ifrafragrance.org/safe-use/standards-guidance"]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "canonical_name": "Phenoxyethanol",
+        "category": "cosmetics",
+        "function": "Preservative",
+        "why_used": "Prevents bacterial and fungal growth in the aqueous bottle over months of shower use.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Evaluated safe by EU SCCS up to 1.0%; can occasionally trigger contact sensitization on broken skin.",
+        "unknown_info": "Exact percentage in bottle.",
+        "sources": ["https://health.ec.europa.eu/system/files/2016-11/sccs_o_195_0.pdf"]
+      },
+      {
+        "name": "Citric Acid",
+        "canonical_name": "Citric Acid",
+        "category": "cosmetics",
+        "function": "pH Adjuster",
+        "why_used": "Lowers shampoo pH to slightly acidic (~5.5) to keep the hair cuticle closed and smooth.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Normal biological acid, safe in topical personal care formulations.",
+        "unknown_info": "Specific titrant volume.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Limonene",
+        "canonical_name": "Limonene",
+        "category": "cosmetics",
+        "function": "Fragrance Allergen Constituent",
+        "why_used": "Adds a fresh citrus note.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Auto-oxidizes upon air exposure into hydroperoxides which can trigger skin sensitization.",
+        "unknown_info": "Degree of oxidation and age of bottle.",
+        "sources": ["https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_102.pdf"]
+      },
+      {
+        "name": "Linalool",
+        "canonical_name": "Linalool",
+        "category": "cosmetics",
+        "function": "Fragrance Allergen Constituent",
+        "why_used": "Imparts a light floral lavender note.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Recognized fragrance allergen in oxidized state; declared per regulatory labeling rules.",
+        "unknown_info": "Hydroperoxide content.",
+        "sources": ["https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_102.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "demo-food",
+    "product_name": "Zesty Artisan Savory Corn Chips",
+    "category": "food",
+    "subcategory": "Snacks",
+    "description": "Stone-ground seasoned tortilla chips with tangy barbecue spice mix.",
+    "raw_text": "Ingredients: Whole Corn, Vegetable Oil (Sunflower and/or Canola), Salt, Monosodium Glutamate, Citric Acid, Sodium Benzoate, Xanthan Gum, Tocopherol, Natural Spices.",
+    "is_demo": true,
+    "summary": "Savory grain snack containing natural lipids, flavor enhancers (MSG), and organic acid preservatives. Good nutritional energy profile with moderate sodium content.",
+    "ingredients": [
+      {
+        "name": "Whole Corn",
+        "canonical_name": "Whole Corn",
+        "category": "food",
+        "function": "Grain Base",
+        "why_used": "Provides dietary complex carbohydrates, fiber, and primary chip structure.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Staple whole cereal grain.",
+        "unknown_info": "Specific hybrid cultivar.",
+        "sources": ["https://www.fda.gov/food"]
+      },
+      {
+        "name": "Monosodium Glutamate",
+        "canonical_name": "Monosodium Glutamate",
+        "category": "food",
+        "function": "Umami Flavor Enhancer",
+        "why_used": "Heightens savory taste and depth of seasoning blend.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "FAO/WHO JECFA and FDA confirm safety in culinary amounts; metabolized as natural glutamate.",
+        "unknown_info": "Exact mg of MSG per 30g serving.",
+        "sources": ["https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg"]
+      },
+      {
+        "name": "Citric Acid",
+        "canonical_name": "Citric Acid",
+        "category": "food",
+        "function": "Tartness & Flavor",
+        "why_used": "Adds characteristic tangy citrus bite to seasoning.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Normal cellular metabolite; FDA GRAS.",
+        "unknown_info": "Exact acid percentage.",
+        "sources": ["https://www.efsa.europa.eu/en/efsajournal/pub/e330"]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "canonical_name": "Sodium Benzoate",
+        "category": "food",
+        "function": "Preservative",
+        "why_used": "Prevents microbial growth in spice slurry.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Safe within ADI; note that trace benzene can form if combined with high ascorbic acid under heat.",
+        "unknown_info": "Actual concentration percentage.",
+        "sources": ["https://www.fda.gov/food/chemicals/questions-and-answers-occurrence-benzene-beverages"]
+      },
+      {
+        "name": "Tocopherol",
+        "canonical_name": "Tocopherol",
+        "category": "food",
+        "function": "Antioxidant",
+        "why_used": "Prevents frying oils from oxidizing and going rancid on shelf.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Natural Vitamin E; protects polyunsaturated fatty acids safely.",
+        "unknown_info": "Tocopherol isomer breakdown.",
+        "sources": ["https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"]
+      }
+    ]
+  },
+  {
+    "id": "demo-detergent",
+    "product_name": "Ultra Clean Eco-Active Laundry Pods",
+    "category": "cleaning",
+    "subcategory": "Laundry detergent",
+    "description": "Concentrated laundry detergent packs with bio-enzymes and oxygen brighteners.",
+    "raw_text": "Ingredients: Anionic and Non-ionic Surfactants, Sodium Carbonate, Sodium Citrate, Sodium Percarbonate, Protease Enzymes, Optical Brighteners, Fragrance.",
+    "is_demo": true,
+    "summary": "Heavy-duty domestic laundry formulation utilizing bio-enzymes to break down stains and sodium percarbonate for color-safe oxygen bleaching. Concentrated pods present an ingestion/eye hazard if mishandled.",
+    "ingredients": [
+      {
+        "name": "Anionic and Non-ionic Surfactants",
+        "canonical_name": "Surfactants",
+        "category": "cleaning",
+        "function": "Active Detergent",
+        "why_used": "Lifts oily grease and dirt particulates from fabric fibers into wash water.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Detergent surfactants are regulated under EU biodegradability standards; concentrated form is an eye irritant.",
+        "unknown_info": "Specific alkyl chain lengths and ethoxylation degree.",
+        "sources": ["https://environment.ec.europa.eu/topics/chemicals/detergents_en"]
+      },
+      {
+        "name": "Sodium Carbonate",
+        "canonical_name": "Sodium Carbonate",
+        "category": "cleaning",
+        "function": "Alkalinity Builder",
+        "why_used": "Maintains wash bath pH around 10.5 for optimal stain saponification.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Inorganic salt; hazard is localized eye and skin irritation due to alkalinity.",
+        "unknown_info": "Concentration per pod.",
+        "sources": ["https://www.epa.gov/saferchoice"]
+      },
+      {
+        "name": "Sodium Percarbonate",
+        "canonical_name": "Sodium Percarbonate",
+        "category": "cleaning",
+        "function": "Oxygen Bleach",
+        "why_used": "Releases hydrogen peroxide upon dissolving in hot/warm water to oxidize organic stains.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Environmentally benign decomposition products (soda ash, water, oxygen); strong ocular irritant.",
+        "unknown_info": "Available active oxygen yield.",
+        "sources": ["https://www.epa.gov/saferchoice"]
+      },
+      {
+        "name": "Protease Enzymes",
+        "canonical_name": "Enzymes",
+        "category": "cleaning",
+        "function": "Protein Stain Degradation",
+        "why_used": "Enzymatically cleaves difficult protein-based stains (blood, grass, food) at low wash temperatures.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Non-bioaccumulative biological catalyst; encapsulated in liquid pods to eliminate respiratory powder inhalation.",
+        "unknown_info": "Enzyme catalytic unit activity.",
+        "sources": ["https://www.aise.eu/our-activities/product-safety-and-innovation/enzymes.aspx"]
+      },
+      {
+        "name": "Optical Brighteners",
+        "canonical_name": "Optical Brighteners",
+        "category": "cleaning",
+        "function": "Fluorescent Whitening",
+        "why_used": "Deposits microscopic whitening fluorophores on cotton fibers.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "MEDIUM",
+        "evidence_summary": "HERA confirms safe for consumer skin, though environmental aquatic persistence warrants moderation.",
+        "unknown_info": "Specific chemical structure (e.g. stilbene derivative).",
+        "sources": ["https://www.heraproject.com"]
+      }
+    ]
+  },
+  {
+    "id": "demo-cosmetic",
+    "product_name": "Restorative Barrier Hydrating Serum",
+    "category": "cosmetics",
+    "subcategory": "Serum",
+    "description": "Niacinamide and Provitamin B5 peptide serum for barrier reinforcement.",
+    "raw_text": "Ingredients: Aqua, Glycerin, Niacinamide, Panthenol, Phenoxyethanol, Xanthan Gum, Citric Acid.",
+    "is_demo": true,
+    "summary": "Clean minimalist leave-on barrier hydration formula. Free from added fragrances, essential oils, and drying alcohols. Suitable for reactive and sensitized skin.",
+    "ingredients": [
+      {
+        "name": "Glycerin",
+        "canonical_name": "Glycerin",
+        "category": "cosmetics",
+        "function": "Deep Humectant",
+        "why_used": "Binds moisture within the stratum corneum and prevents moisture loss.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Gold standard natural humectant with impeccable safety.",
+        "unknown_info": "Percent concentration.",
+        "sources": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835894/"]
+      },
+      {
+        "name": "Niacinamide",
+        "canonical_name": "Niacinamide",
+        "category": "cosmetics",
+        "function": "Barrier Repair Active",
+        "why_used": "Boosts ceramide synthesis, reduces hyperpigmentation, and reinforces lipid matrix.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Extensively documented active; clinically validated at 2-5% concentration.",
+        "unknown_info": "Exact percentage (e.g. 5% vs 10%).",
+        "sources": ["https://pubmed.ncbi.nlm.nih.gov/16029679/"]
+      },
+      {
+        "name": "Panthenol",
+        "canonical_name": "Panthenol",
+        "category": "cosmetics",
+        "function": "Skin Soother & Provitamin",
+        "why_used": "Calms irritations and supports tissue regeneration.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Converts to Vitamin B5; deeply restorative.",
+        "unknown_info": "Concentration range.",
+        "sources": ["https://www.cir-safety.org/ingredients"]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "canonical_name": "Phenoxyethanol",
+        "category": "cosmetics",
+        "function": "Preservative",
+        "why_used": "Guards the water-rich serum against bacterial contamination during dropper dispensing.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Regulated up to 1.0% maximum in the EU; well-tolerated on intact skin.",
+        "unknown_info": "Omitted formulation dosage.",
+        "sources": ["https://health.ec.europa.eu/system/files/2016-11/sccs_o_195_0.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "demo-cleaner",
+    "product_name": "Multi-Surface Kitchen & Bath Degreasing Spray",
+    "category": "cleaning",
+    "subcategory": "Bathroom cleaner",
+    "description": "Ready-to-use spray cleaner targeting soap scum, grime, and grease.",
+    "raw_text": "Ingredients: Purified Water, Sodium Citrate, Alcohol Ethoxylate Surfactants, Sodium Carbonate, Fragrance, Limonene.",
+    "is_demo": true,
+    "summary": "Non-chlorinated multi-surface cleaner using citrate chelators and carbonate builders to break grease and soap residues. Contains citrus fragrance compounds that require good ventilation.",
+    "ingredients": [
+      {
+        "name": "Sodium Citrate",
+        "canonical_name": "Sodium Citrate",
+        "category": "cleaning",
+        "function": "Water Softener & Builder",
+        "why_used": "Binds hard water calcium and magnesium so surfactants work without leaving mineral film.",
+        "concern_level": "LOW CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Readily biodegradable organic salt; EPA Safer Choice chemical.",
+        "unknown_info": "Exact weight percentage.",
+        "sources": ["https://www.epa.gov/saferchoice"]
+      },
+      {
+        "name": "Alcohol Ethoxylate Surfactants",
+        "canonical_name": "Surfactants",
+        "category": "cleaning",
+        "function": "Non-Ionic Degreaser",
+        "why_used": "Emulsifies kitchen cooking oils and bath scum.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Rapidly biodegradable; causes temporary eye stinging upon direct spray contact.",
+        "unknown_info": "Degree of ethoxylation.",
+        "sources": ["https://www.epa.gov/saferchoice"]
+      },
+      {
+        "name": "Sodium Carbonate",
+        "canonical_name": "Sodium Carbonate",
+        "category": "cleaning",
+        "function": "pH Buffer & Builder",
+        "why_used": "Maintains alkaline cleaning power to cut grease.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Common washing soda; non-systemic hazard limited to topical pH irritation.",
+        "unknown_info": "Finished solution pH (typically ~9.5-10.5).",
+        "sources": ["https://www.epa.gov/saferchoice"]
+      },
+      {
+        "name": "Fragrance",
+        "canonical_name": "Fragrance / Parfum",
+        "category": "cleaning",
+        "function": "Scent",
+        "why_used": "Leaves a fresh clean scent in living areas.",
+        "concern_level": "NEEDS ATTENTION",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Complex aroma mixture; can trigger respiratory airway irritation in asthma patients.",
+        "unknown_info": "Specific constituent aroma chemicals.",
+        "sources": ["https://ifrafragrance.org/safe-use/standards-guidance"]
+      },
+      {
+        "name": "Limonene",
+        "canonical_name": "Limonene",
+        "category": "cosmetics",
+        "function": "Citrus Terpene Solvent",
+        "why_used": "Provides natural citrus grease-cutting action.",
+        "concern_level": "MODERATE CONCERN",
+        "evidence_level": "HIGH",
+        "evidence_summary": "Contact allergen in oxidized state.",
+        "unknown_info": "Concentration in finished spray.",
+        "sources": ["https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_102.pdf"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "water",
+  "name": "Water / Water-Treatment Products",
+  "description": "Potable water conditioners, filtration medias, pool sanitizers, and dechlorination agents",
+  "subcategories": [
+    "Water purification products",
+    "Pool chemicals",
+    "Water conditioners",
+    "Filter products"
+  ],
+  "keywords": [
+    "chlorine", "trichlor", "sodium hypochlorite", "dechlorinator", "water conditioner",
+    "ph balancer", "algaecide", "activated carbon", "ion exchange", "calcium hypochlorite"
+  ],
+  "regulatory_framework": "NSF/ANSI Standard 60 & 61 / EPA Drinking Water Guidelines"
+}

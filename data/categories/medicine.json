@@ -1,0 +1,20 @@
+{
+  "id": "medicine",
+  "name": "Medicine & Health Products",
+  "description": "Over-the-counter pharmaceuticals, oral rehydration, vitamins, and antiseptic remedies",
+  "subcategories": [
+    "OTC medicines",
+    "Cough products",
+    "Antacids",
+    "ORS",
+    "Vitamins",
+    "Minerals",
+    "Electrolytes",
+    "Antiseptics"
+  ],
+  "keywords": [
+    "drug facts", "active ingredient", "inactive ingredients", "dosage", "warnings",
+    "acetaminophen", "ibuprofen", "antacid", "calcium carbonate", "dextromethorphan", "usp"
+  ],
+  "regulatory_framework": "FDA OTC Drug Monographs / USP / EMA Guidelines"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "diy",
+  "name": "Building / DIY / Hardware",
+  "description": "Architectural paints, epoxies, silicones, mastics, rust converters, and solvent compounds",
+  "subcategories": [
+    "Paint",
+    "Varnish",
+    "Sealants",
+    "Epoxy",
+    "Caulking",
+    "Rust removers",
+    "Solvents"
+  ],
+  "keywords": [
+    "polyurethane", "epoxy resin", "hardener", "silicone sealant", "mineral spirits", "acetone",
+    "primer", "voc", "flammable", "danger: vapor harmful", "rust inhibitor"
+  ],
+  "regulatory_framework": "OSHA / EPA VOC Regulations / CPSC Building Chemical Guidelines"
+}

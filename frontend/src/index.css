@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   CSS VARIABLES
+   ========================================== */
+:root {
+  --paper-bg: #F4F0E6;
+  --paper-border: #D8D1BE;
+  --cream-bg: #FFF9EC;
+  --forest-dark: #10231D;
+  --forest-deep: #183C32;
+  --lime: #C8E65A;
+  --coral: #E96D5B;
+  --sky: #73B9C8;
+  --gold: #E4B85C;
+  --lavender: #9A8CC7;
+  --ink-primary: #14201B;
+  --ink-muted: #63726B;
+}
+
+/* ==========================================
+   BASE
+   ========================================== */
+body {
+  background-color: var(--paper-bg);
+  color: var(--ink-primary);
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================
+   SELECTION COLOR
+   ========================================== */
+::selection {
+  background: #C8E65A;
+  color: #10231D;
+}
+
+/* ==========================================
+   FOCUS RING (accessibility)
+   ========================================== */
+:focus-visible {
+  outline: 2px solid #C8E65A;
+  outline-offset: 2px;
+}
+
+/* ==========================================
+   PAPER TEXTURES
+   ========================================== */
+.editorial-paper {
+  background-color: #F4F0E6;
+  background-image:
+    linear-gradient(to right, rgba(20, 32, 27, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 32, 27, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.technical-grid {
+  background-image:
+    linear-gradient(to right, rgba(24, 56, 45, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 56, 45, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* ==========================================
+   HAIRLINE DIVIDERS
+   ========================================== */
+.hairline-b { border-bottom: 1px solid rgba(24, 56, 45, 0.12); }
+.hairline-t { border-top:    1px solid rgba(24, 56, 45, 0.12); }
+.hairline-r { border-right:  1px solid rgba(24, 56, 45, 0.12); }
+.hairline-l { border-left:   1px solid rgba(24, 56, 45, 0.12); }
+
+/* ==========================================
+   COLOR SEMANTIC INDICATORS
+   ========================================== */
+.indicator-lime     { border-left: 3px solid #C8E65A; }
+.indicator-coral    { border-left: 3px solid #E96D5B; }
+.indicator-gold     { border-left: 3px solid #E4B85C; }
+.indicator-sky      { border-left: 3px solid #73B9C8; }
+.indicator-lavender { border-left: 3px solid #9A8CC7; }
+.indicator-forest   { border-left: 3px solid #183C32; }
+
+/* ==========================================
+   PACKAGING BAND (hazard stripe)
+   ========================================== */
+.packaging-band {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 4px,
+    rgba(20, 32, 27, 0.045) 4px,
+    rgba(20, 32, 27, 0.045) 8px
+  );
+}
+
+/* ==========================================
+   EDITORIAL HEADLINE HIGHLIGHT
+   ========================================== */
+.editorial-highlight {
+  background: linear-gradient(180deg, transparent 60%, rgba(200, 230, 90, 0.55) 60%);
+}
+
+/* ==========================================
+   SCANNER LASER ANIMATION
+   ========================================== */
+@keyframes laser-sweep {
+  0%   { top: 0%;  opacity: 0.85; }
+  50%  { top: 97%; opacity: 1;    }
+  100% { top: 0%;  opacity: 0.85; }
+}
+.animate-laser {
+  animation: laser-sweep 2.2s ease-in-out infinite;
+}
+
+/* ==========================================
+   FADE IN
+   ========================================== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+.animate-editorial-fade {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ==========================================
+   SLIDE UP (for modals)
+   ========================================== */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+.animate-slide-up {
+  animation: slideUp 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ==========================================
+   PULSE DOT (status indicator)
+   ========================================== */
+@keyframes pulseDot {
+  0%, 100% { opacity: 1;   transform: scale(1);   }
+  50%       { opacity: 0.4; transform: scale(0.75); }
+}
+.animate-pulse-dot {
+  animation: pulseDot 1.8s ease-in-out infinite;
+}
+
+/* ==========================================
+   PRECISION SCROLLBARS
+   ========================================== */
+::-webkit-scrollbar       { width: 4px;  height: 4px;  }
+::-webkit-scrollbar-track { background: #E8E5DC;        }
+::-webkit-scrollbar-thumb { background: #C2BDAF; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #999384; }

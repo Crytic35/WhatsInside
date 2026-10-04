@@ -1,0 +1,16 @@
+{
+  "id": "gardening",
+  "name": "Gardening & Plant Products",
+  "description": "Fertilizers, soil conditioners, micronutrients, and horticultural treatments",
+  "subcategories": [
+    "Fertilizers",
+    "Plant nutrients",
+    "Soil products",
+    "Pest-control products"
+  ],
+  "keywords": [
+    "nitrogen", "phosphate", "potash", "n-p-k", "fertilizer", "soil", "plant food",
+    "horticultural", "foliar", "micronutrients", "compost"
+  ],
+  "regulatory_framework": "AAPFCO Model Bills / EPA FIFRA guidelines"
+}

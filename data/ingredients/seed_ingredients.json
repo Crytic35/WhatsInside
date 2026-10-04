@@ -1,0 +1,596 @@
+[
+  {
+    "canonical_name": "Citric Acid",
+    "aliases": ["citric acid", "e330", "2-hydroxypropane-1,2,3-tricarboxylic acid"],
+    "category": "food",
+    "functions": ["Acidity Regulator", "Preservative", "Flavoring Agent", "Chelating Agent"],
+    "common_uses": "Used in soft drinks, juices, candies, canned foods, cosmetic pH adjusters, and descaling cleaners.",
+    "known_concerns": "May contribute to dental enamel erosion when consumed frequently in acidic beverages. Can cause mild skin or eye irritation in high concentrated powder form.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Citric acid is a normal intermediate in human cellular metabolism (Krebs cycle). Extensively evaluated by EFSA, FDA (GRAS), and JECFA with no systemic toxicity observed at normal dietary concentrations.",
+    "exposure_notes": "Oral exposure from food is metabolized quickly. Topical exposure in low pH cosmetics may irritate sensitive skin barrier.",
+    "regulatory_notes": "FDA GRAS (21 CFR 184.1033); EU approved food additive E330 without quantitative upper limit (quantum satis).",
+    "source_urls": [
+      "https://www.fda.gov/food/food-additives-petitions/food-additive-status-list",
+      "https://www.efsa.europa.eu/en/efsajournal/pub/e330"
+    ],
+    "last_reviewed": "2026-01-15",
+    "unknown_info": "Product-specific concentration is typically undisclosed on standard ingredient panels."
+  },
+  {
+    "canonical_name": "Sodium Benzoate",
+    "aliases": ["sodium benzoate", "e211", "benzoic acid sodium salt"],
+    "category": "food",
+    "functions": ["Preservative", "Antimicrobial Agent"],
+    "common_uses": "Inhibits mold, yeast, and bacterial growth in acidic foods, carbonated sodas, salad dressings, fruit juices, and cosmetics.",
+    "known_concerns": "When combined with Ascorbic Acid (Vitamin C) under heat or light, trace benzene (a known carcinogen) can form in low ppb levels. Rare mild pseudo-allergic urticaria reactions reported in hypersensitive individuals.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensively studied by WHO/IPCS and FDA. The FDA established an Acceptable Daily Intake (ADI) of 0-5 mg/kg body weight. FDA beverage surveys confirmed benzene formation is controlled through formulation guidelines.",
+    "exposure_notes": "Rapidly excreted by kidneys bound as hippuric acid. Risk depends on whether ascorbic acid is present in the same acidic solution.",
+    "regulatory_notes": "FDA permitted up to 0.1% by weight (21 CFR 184.1733). EU approved as E211 with specified maximum limits.",
+    "source_urls": [
+      "https://www.fda.gov/food/chemicals/questions-and-answers-occurrence-benzene-beverages",
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4313"
+    ],
+    "last_reviewed": "2026-02-10",
+    "unknown_info": "Exact concentration and ambient storage history are unavailable from label alone."
+  },
+  {
+    "canonical_name": "Potassium Sorbate",
+    "aliases": ["potassium sorbate", "e202", "potassium (E,E)-hexa-2,4-dienoate"],
+    "category": "food",
+    "functions": ["Antifungal Preservative", "Stabilizer"],
+    "common_uses": "Widely used in wines, cheeses, yogurts, dried fruits, baked goods, and personal care products to prevent mold and yeast.",
+    "known_concerns": "Can occasionally cause mild contact dermatitis or skin irritation in leave-on cosmetic products. In food, adverse reactions are extremely rare.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Evaluated by EFSA and JECFA. Metabolized in the body similarly to fatty acids into water and carbon dioxide. ADI established at 11 mg/kg bw/day by EFSA in 2019.",
+    "exposure_notes": "Metabolized efficiently via beta-oxidation. Not genotoxic or carcinogenic.",
+    "regulatory_notes": "FDA GRAS (21 CFR 182.3640). EU approved as E202.",
+    "source_urls": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/5625"
+    ],
+    "last_reviewed": "2026-01-20",
+    "unknown_info": "Actual dosage percentage is omitted on consumer labels."
+  },
+  {
+    "canonical_name": "Monosodium Glutamate",
+    "aliases": ["monosodium glutamate", "msg", "sodium glutamate", "e621", "l-monosodium glutamate"],
+    "category": "food",
+    "functions": ["Flavor Enhancer", "Umami Agent"],
+    "common_uses": "Enhances savory flavor in soups, seasonings, snack chips, noodles, sauces, and processed meats.",
+    "known_concerns": "Anecdotal reports of temporary symptoms (headache, flushing, numbness) dubbed MSG symptom complex. Rigorous double-blind placebo trials failed to confirm consistent clinical causality in the general population, though a small subset may have mild sensitivity to large unbuffered doses (>3g without food).",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensive joint evaluations by FAO/WHO JECFA, US FDA, and Federation of American Societies for Experimental Biology (FASEB) concluded MSG is safe for general consumption at customary culinary levels.",
+    "exposure_notes": "Glutamate is naturally synthesized in the human body and found abundantly in tomatoes, aged cheeses, and mushrooms. Processed in intestinal enterocytes.",
+    "regulatory_notes": "FDA GRAS; EU approved food additive E621; required by law to be listed on food ingredient labels.",
+    "source_urls": [
+      "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg",
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    ],
+    "last_reviewed": "2026-01-18",
+    "unknown_info": "Exact grams of free glutamate added versus naturally occurring in ingredients."
+  },
+  {
+    "canonical_name": "Aspartame",
+    "aliases": ["aspartame", "e951", "nutrasweet", "equal", "l-alpha-aspartyl-l-phenylalanine methyl ester"],
+    "category": "food",
+    "functions": ["Non-Nutritive Sweetener", "Sugar Substitute"],
+    "common_uses": "Diet beverages, chewing gum, sugar-free desserts, yogurt, and tabletop sweeteners.",
+    "known_concerns": "Must be avoided completely by individuals with Phenylketonuria (PKU) due to inability to metabolize phenylalanine. In 2023, IARC classified aspartame as Group 2B (possibly carcinogenic) based on limited human evidence, while WHO JECFA reaffirmed an ADI of 0-40 mg/kg bw, noting dietary intake within this limit is safe.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "One of the most rigorously evaluated food additives globally. Degrades in the gut into aspartic acid, phenylalanine, and methanol in trace amounts lower than found in common fruits.",
+    "exposure_notes": "An adult weighing 60 kg would need to drink 9 to 14 cans of diet soda containing 200-300 mg aspartame per day to exceed the ADI.",
+    "regulatory_notes": "FDA approved (21 CFR 172.804) with mandatory warning label: 'PHENYLKETONURICS: CONTAINS PHENYLALANINE'. EFSA reaffirmed safety in 2013 and 2023 review.",
+    "source_urls": [
+      "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
+      "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food"
+    ],
+    "last_reviewed": "2026-02-01",
+    "unknown_info": "Specific milligram dose per serving is rarely declared on retail beverage packaging."
+  },
+  {
+    "canonical_name": "Sucralose",
+    "aliases": ["sucralose", "e955", "splenda", "1,6-dichloro-1,6-dideoxy-beta-d-fructofuranosyl-4-chloro-4-deoxy-alpha-d-galactopyranoside"],
+    "category": "food",
+    "functions": ["High-Intensity Sweetener", "Flavor Modifier"],
+    "common_uses": "Baked goods, zero-calorie sodas, protein powders, syrups, and table sweeteners.",
+    "known_concerns": "Emerging research is investigating potential subtle impacts on gut microbiome composition and glycemic response in non-habitual consumers. When heated above 120°C (baking), chlorinated breakdown products may generate under certain conditions.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensively evaluated by FDA, EFSA, and Health Canada. Approximately 85% passes unabsorbed through the gastrointestinal tract and is excreted unchanged.",
+    "exposure_notes": "FDA Acceptable Daily Intake is 5 mg/kg bw/day (equivalent to ~23 packets of tabletop sweetener for a 60 kg adult).",
+    "regulatory_notes": "FDA approved as general purpose sweetener (21 CFR 172.831). EU approved as E955.",
+    "source_urls": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4785",
+      "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+    ],
+    "last_reviewed": "2026-01-22",
+    "unknown_info": "Exact formulation concentration cannot be calculated from standard ingredient listings."
+  },
+  {
+    "canonical_name": "Lecithin",
+    "aliases": ["lecithin", "soy lecithin", "sunflower lecithin", "e322", "phosphatidylcholine"],
+    "category": "food",
+    "functions": ["Emulsifier", "Viscosity Modifier", "Stabilizer"],
+    "common_uses": "Prevents separation in chocolate, margarine, baked goods, infant formulas, and sauces.",
+    "known_concerns": "Soy-derived lecithin may trigger allergic reactions in individuals with severe soy allergy, although highly refined soy lecithin contains minimal residual soy proteins.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "A natural mixture of phospholipids essential to cellular membranes in animals and plants. JECFA allocated 'ADI not specified', indicating minimal toxicological concern.",
+    "exposure_notes": "Normal dietary constituent digested into choline, fatty acids, and glycerol.",
+    "regulatory_notes": "FDA GRAS (21 CFR 184.1400); EU approved food additive E322; major allergen labeling required if soy-derived.",
+    "source_urls": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/6271"
+    ],
+    "last_reviewed": "2026-01-20",
+    "unknown_info": "Source seed variety (soy vs. sunflower) and protein purification level if not explicitly qualified."
+  },
+  {
+    "canonical_name": "Xanthan Gum",
+    "aliases": ["xanthan gum", "e415", "corn sugar gum"],
+    "category": "food",
+    "functions": ["Thickening Agent", "Stabilizer", "Texture Enhancer"],
+    "common_uses": "Salad dressings, gluten-free baked goods, dairy substitutes, syrups, toothpaste, and face serums.",
+    "known_concerns": "High acute oral doses (>15 grams) may act as an osmotic laxative causing bloating, flatulence, or loose stools. In infant thickeners, caution is advised for premature infants.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "A polysaccharide produced through fermentation of glucose by Xanthomonas campestris. It is a soluble dietary fiber not digested by human upper GI enzymes.",
+    "exposure_notes": "Standard food formulations use less than 0.5% concentration.",
+    "regulatory_notes": "FDA GRAS (21 CFR 172.695); EU approved as E415 without ADI limit.",
+    "source_urls": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/4909"
+    ],
+    "last_reviewed": "2026-01-10",
+    "unknown_info": "Specific percentage in recipe is proprietary."
+  },
+  {
+    "canonical_name": "Carrageenan",
+    "aliases": ["carrageenan", "e407", "irish moss extract", "chondrus crispus extract"],
+    "category": "food",
+    "functions": ["Gelling Agent", "Thickener", "Stabilizer"],
+    "common_uses": "Plant milks (almond, soy), ice creams, deli meats, cottage cheese, and puddings.",
+    "known_concerns": "Degraded carrageenan (poligeenan, not approved in food) is known to induce intestinal inflammation in animal models. Food-grade carrageenan has undergone controversy regarding whether it triggers gut inflammation or ulceration in susceptible individuals.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "MEDIUM",
+    "evidence_summary": "EFSA (2018) re-evaluated food additive E407 and maintained approval, though noted ongoing debates regarding low molecular weight fractions and established a temporary group ADI of 75 mg/kg bw/day.",
+    "exposure_notes": "Risk depends significantly on individual GI sensitivity (e.g., IBD, IBS) and molecular weight distribution.",
+    "regulatory_notes": "FDA approved (21 CFR 172.620); banned in EU infant formula as a precautionary measure.",
+    "source_urls": [
+      "https://www.efsa.europa.eu/en/efsajournal/pub/5238",
+      "https://www.fda.gov/food/food-additives-petitions/carrageenan"
+    ],
+    "last_reviewed": "2026-02-12",
+    "unknown_info": "Molecular weight distribution and percentage of low-weight polymers in the specific batch."
+  },
+  {
+    "canonical_name": "Ascorbic Acid",
+    "aliases": ["ascorbic acid", "vitamin c", "l-ascorbic acid", "e300"],
+    "category": "food",
+    "functions": ["Antioxidant", "Nutrient", "Dough Conditioner", "Color Stabilizer"],
+    "common_uses": "Fruit juices, bread, cured meats, dietary supplements, and anti-aging face serums.",
+    "known_concerns": "Very high oral mega-doses (>2000 mg/day) can cause osmotic diarrhea or increase risk of calcium oxalate kidney stones in predisposed individuals.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Essential water-soluble human vitamin. Acts as an enzyme cofactor in collagen biosynthesis and a potent antioxidant neutralizing reactive oxygen species.",
+    "exposure_notes": "Excess water-soluble amounts are excreted in urine.",
+    "regulatory_notes": "FDA GRAS (21 CFR 182.3013); EU approved food additive E300 without numerical restriction.",
+    "source_urls": [
+      "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+    ],
+    "last_reviewed": "2026-01-05",
+    "unknown_info": "Actual mg amount per serving unless designated as a dietary supplement or fortified claim."
+  },
+  {
+    "canonical_name": "Tocopherol",
+    "aliases": ["tocopherol", "vitamin e", "alpha-tocopherol", "d-alpha-tocopherol", "mixed tocopherols", "e306"],
+    "category": "food",
+    "functions": ["Antioxidant", "Nutrient", "Lipid Preservative"],
+    "common_uses": "Prevents rancidity in vegetable oils, cereals, nuts, snack foods, face oils, and sunscreens.",
+    "known_concerns": "Excessive high-dose oral dietary supplements (>1000 mg/day) may inhibit platelet aggregation and increase bleeding risk. In standard food preservation and topical cosmetics, it is safe.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Essential fat-soluble nutrient and lipid-soluble chain-breaking antioxidant protecting polyunsaturated fatty acids from peroxidation.",
+    "exposure_notes": "Dietary amounts are thoroughly documented and safe.",
+    "regulatory_notes": "FDA GRAS (21 CFR 184.1890); EU approved as E306.",
+    "source_urls": [
+      "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+    ],
+    "last_reviewed": "2026-01-12",
+    "unknown_info": "Specific ratio of alpha, beta, gamma, delta isomers used."
+  },
+  {
+    "canonical_name": "Sodium Laureth Sulfate",
+    "aliases": ["sodium laureth sulfate", "sles", "sodium lauryl ether sulfate", "sodium polyoxyethylene lauryl sulfate"],
+    "category": "cosmetics",
+    "functions": ["Anionic Surfactant", "Cleansing Agent", "Foaming Agent"],
+    "common_uses": "Primary cleansing surfactant in liquid body washes, shampoos, dishwashing liquids, and facial cleansers.",
+    "known_concerns": "Can cause skin barrier disruption, dryness, and ocular irritation upon prolonged leave-on contact. Historical manufacturing concerns involve trace 1,4-dioxane byproduct (a suspected carcinogen), though modern vacuum stripping limits 1,4-dioxane to safe sub-ppm levels.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Cosmetic Ingredient Review (CIR) Expert Panel concluded SLES is safe when formulated to be non-irritating and when rinse-off instructions are followed. Ethoxylation makes SLES significantly milder than SLS.",
+    "exposure_notes": "Intended strictly for rinse-off applications; brief contact with water drastically reduces penetration.",
+    "regulatory_notes": "Permitted in cosmetics internationally; FDA and EU monitor 1,4-dioxane impurity levels (mandated <10 ppm).",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients",
+      "https://www.fda.gov/cosmetics/potential-contaminants-cosmetics/14-dioxane-cosmetics-manufacturing-byproduct"
+    ],
+    "last_reviewed": "2026-02-15",
+    "unknown_info": "Exact percentage active surfactant and finished formulation purity (trace dioxane test results)."
+  },
+  {
+    "canonical_name": "Sodium Lauryl Sulfate",
+    "aliases": ["sodium lauryl sulfate", "sls", "sodium dodecyl sulfate", "sds"],
+    "category": "cosmetics",
+    "functions": ["Primary Surfactant", "Detergent", "Denaturant", "Foamer"],
+    "common_uses": "Toothpastes, clarifying shampoos, bar soaps, and heavy-duty degreasers.",
+    "known_concerns": "Known skin and mucous membrane irritant. In toothpastes, may increase recurrence of aphthous ulcers (canker sores) in susceptible individuals by stripping oral protective mucin.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Standard reference irritant in dermatological patch testing. Does not accumulate in tissue, is not mutagenic or carcinogenic. CIR panel recommends formulations in continuous contact with skin should not exceed 1%.",
+    "exposure_notes": "Rinse-off exposure poses low systemic risk, but high acute irritation hazard for eczema/rosacea sufferers.",
+    "regulatory_notes": "Permitted globally with concentration restrictions in leave-on cosmetic preparations.",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients",
+      "https://echa.europa.eu/substance-information/-/substanceinfo/100.005.788"
+    ],
+    "last_reviewed": "2026-02-10",
+    "unknown_info": "Specific active concentration and presence of buffering counter-surfactants."
+  },
+  {
+    "canonical_name": "Cocamidopropyl Betaine",
+    "aliases": ["cocamidopropyl betaine", "capb", "coco betaine", "n-(carboxymethyl)-n,n-dimethyl-3-[(1-oxococo)amino]-1-propanaminium hydroxide inner salt"],
+    "category": "cosmetics",
+    "functions": ["Amphoteric Surfactant", "Foam Booster", "Secondary Cleanser", "Viscosity Builder"],
+    "common_uses": "Gentle baby shampoos, tear-free body washes, micellar waters, and liquid hand soaps.",
+    "known_concerns": "Named Contact Allergen of the Year (2004) by the American Contact Dermatitis Society. The true allergens are typically synthesis impurities (dimethylaminopropylamine - DMAPA and amidoamine) rather than CAPB itself.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Substantially milder to the skin and eyes than alkyl sulfates; frequently blended to reduce overall product irritation potential. Modern manufacturers strictly control residual DMAPA to <0.005%.",
+    "exposure_notes": "Generally well-tolerated except in individuals specifically sensitized to manufacturing intermediates.",
+    "regulatory_notes": "CIR Expert Panel concluded CAPB safe for cosmetic use in rinse-off products and leave-on up to 3%.",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients"
+    ],
+    "last_reviewed": "2026-01-28",
+    "unknown_info": "Batch purity and residual amine impurity levels."
+  },
+  {
+    "canonical_name": "Glycerin",
+    "aliases": ["glycerin", "glycerol", "propane-1,2,3-triol", "glycerine"],
+    "category": "cosmetics",
+    "functions": ["Humectant", "Skin Protectant", "Moisturizer", "Viscosity Decreasing Agent"],
+    "common_uses": "Ubiquitous in moisturizers, lotions, hair conditioners, toothpastes, syrups, and edible confections.",
+    "known_concerns": "Extremely safe with virtually no sensitization potential. In pure 100% undiluted state in arid environments, can draw water from deeper skin layers, but in formulated products it is deeply hydrating.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Naturally occurring trihydroxy alcohol found in natural lipids. Evaluated extensively by CIR, FDA, and WHO. Proven to restore stratum corneum hydration and accelerate skin barrier repair.",
+    "exposure_notes": "Rapidly absorbed, metabolized, and tolerated topically, orally, and ophthalmically.",
+    "regulatory_notes": "FDA OTC Skin Protectant Active (21 CFR 347.10); FDA GRAS food additive; EU Annex unrestricted.",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835894/"
+    ],
+    "last_reviewed": "2026-01-10",
+    "unknown_info": "Concentration range is not given, but poses minimal risk across all typical concentrations."
+  },
+  {
+    "canonical_name": "Panthenol",
+    "aliases": ["panthenol", "provitamin b5", "d-panthenol", "dexpanthenol"],
+    "category": "cosmetics",
+    "functions": ["Hair Conditioning Agent", "Skin Conditioning Agent", "Provitamin", "Humectant"],
+    "common_uses": "Leave-in conditioners, wound healing ointments, skin barrier creams, and nail treatments.",
+    "known_concerns": "Extremely rare contact allergic dermatitis (<0.1% of patch test patients).",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Converted intracellularly into pantothenic acid (Vitamin B5), a fundamental constituent of Coenzyme A. Clinically validated to enhance skin hydration, reduce transepidermal water loss, and soothe inflammation.",
+    "exposure_notes": "Readily penetrates epidermis and hair shaft; high safety margin across all age groups.",
+    "regulatory_notes": "CIR Expert Panel affirmed safe up to 5% in cosmetics; USP grade monograph.",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients"
+    ],
+    "last_reviewed": "2026-01-15",
+    "unknown_info": "Concentration (commonly 0.5% - 5%)."
+  },
+  {
+    "canonical_name": "Niacinamide",
+    "aliases": ["niacinamide", "nicotinamide", "vitamin b3", "pyridine-3-carboxamide"],
+    "category": "cosmetics",
+    "functions": ["Skin Conditioning Agent", "Brightening Agent", "Barrier Restorative", "Antioxidant"],
+    "common_uses": "Facial serums, anti-blemish creams, anti-aging moisturizers, and acne topicals.",
+    "known_concerns": "At high topical concentrations (>5-10%), some users experience transient stinging, redness, or cutaneous flushing caused by small residual nicotinic acid or histamine pathway activation.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Essential precursor for cellular coenzymes NAD+/NADP+. Extensive peer-reviewed dermatological literature confirms it stimulates ceramide synthesis, reduces hyperpigmentation, and calms redness.",
+    "exposure_notes": "Excellent safety profile when used topically in formulated concentrations (2% to 5%).",
+    "regulatory_notes": "CIR approved safe for cosmetic usage; GRAS for food fortification.",
+    "source_urls": [
+      "https://www.cir-safety.org/ingredients",
+      "https://pubmed.ncbi.nlm.nih.gov/16029679/"
+    ],
+    "last_reviewed": "2026-02-05",
+    "unknown_info": "Exact concentration (e.g. 2% vs 10% vs 20%)."
+  },
+  {
+    "canonical_name": "Phenoxyethanol",
+    "aliases": ["phenoxyethanol", "2-phenoxyethanol", "ethylene glycol monophenyl ether", "optiphen"],
+    "category": "cosmetics",
+    "functions": ["Broad-Spectrum Preservative", "Antimicrobial Agent"],
+    "common_uses": "Widely adopted preservative in cleansers, lotions, sunscreens, baby wipes, and cosmetics replacing parabens.",
+    "known_concerns": "Can cause skin sensitization or contact urticaria in eczema patients. Ingestion in infants (via nipple creams) caused respiratory depression in a 2008 FDA advisory.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Evaluated by SCCS (Scientific Committee on Consumer Safety) in 2016. SCCS concluded phenoxyethanol is safe for all consumers, including children, when used as a preservative up to the 1.0% regulatory ceiling.",
+    "exposure_notes": "Topical application below 1.0% does not present systemic toxicological hazard.",
+    "regulatory_notes": "EU Cosmetics Regulation Annex V limits concentration to 1.0%; FDA permits safe use within standard manufacturing limits.",
+    "source_urls": [
+      "https://health.ec.europa.eu/system/files/2016-11/sccs_o_195_0.pdf",
+      "https://www.fda.gov/cosmetics/cosmetic-ingredients"
+    ],
+    "last_reviewed": "2026-01-25",
+    "unknown_info": "Exact percentage in product (typically 0.4% - 0.9%)."
+  },
+  {
+    "canonical_name": "Parabens",
+    "aliases": ["parabens", "methylparaben", "propylparaben", "butylparaben", "ethylparaben", "4-hydroxybenzoate esters"],
+    "category": "cosmetics",
+    "functions": ["Antimicrobial Preservative", "Antifungal Agent"],
+    "common_uses": "Preserves water-based cosmetics, personal care products, pharmaceuticals, and certain processed foods.",
+    "known_concerns": "Exhibit weak estrogenic activity in in-vitro assays (10,000 to 100,000 times weaker than estradiol). Detected in human tissue, leading to public concern over endocrine disruption.",
+    "concern_level": "NEEDS ATTENTION",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensively evaluated by EU SCCS and US CIR. Shorter-chain parabens (methyl- and ethylparaben) are safe at authorized concentrations (0.4% single, 0.8% total). Longer-chain parabens (isopropyl, isobutyl) are banned in the EU. CIR determined methyl and propyl paraben are safe as currently used.",
+    "exposure_notes": "Rapidly hydrolyzed by esterases in skin and blood into para-hydroxybenzoic acid and eliminated via urine.",
+    "regulatory_notes": "EU banned branched-chain parabens in 2014; restricted propyl- and butylparaben to 0.14%. US FDA continues to evaluate scientific data with no specific bans.",
+    "source_urls": [
+      "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en",
+      "https://www.fda.gov/cosmetics/cosmetic-ingredients/parabens-cosmetics"
+    ],
+    "last_reviewed": "2026-02-12",
+    "unknown_info": "Specific paraben ester compound identification and total percentage."
+  },
+  {
+    "canonical_name": "Fragrance / Parfum",
+    "aliases": ["fragrance", "parfum", "aroma", "fragrance/parfum", "perfume"],
+    "category": "cosmetics",
+    "functions": ["Masking Agent", "Fragrance Ingredient", "Odor Neutralizer"],
+    "common_uses": "Perfumes, colognes, soaps, shampoos, detergents, lotions, fabric softeners, and air fresheners.",
+    "known_concerns": "Single umbrella term masking a proprietary mixture of dozens to hundreds of synthetic and natural aroma chemicals. Top cause of allergic contact dermatitis in cosmetics. May trigger respiratory symptoms in asthmatics or headaches in sensitive individuals.",
+    "concern_level": "NEEDS ATTENTION",
+    "evidence_level": "HIGH",
+    "evidence_summary": "International Fragrance Association (IFRA) publishes safety standards for fragrance ingredients. EU cosmetics law requires 26 individual fragrance allergens to be declared separately on labels when exceeding 0.001% (leave-on) or 0.01% (rinse-off).",
+    "exposure_notes": "Exposure risk depends entirely on individual atopy and the specific unlisted constituent chemicals.",
+    "regulatory_notes": "Protected trade secret in the US under FDA Fair Packaging and Labeling Act; EU mandating expansion from 26 to 82 individual allergen disclosures by 2026.",
+    "source_urls": [
+      "https://ifrafragrance.org/safe-use/standards-guidance",
+      "https://health.ec.europa.eu/publications/revision-annex-iii-eu-cosmetics-regulation-fragrance-allergens_en"
+    ],
+    "last_reviewed": "2026-02-18",
+    "unknown_info": "Identity and concentration of the dozens of individual undisclosed chemical constituents inside the fragrance blend."
+  },
+  {
+    "canonical_name": "Limonene",
+    "aliases": ["limonene", "d-limonene", "dipentene", "(r)-4-isopropenyl-1-methylcyclohexene"],
+    "category": "cosmetics",
+    "functions": ["Fragrance Component", "Terpene Solvent", "Flavoring Agent"],
+    "common_uses": "Citrus perfumes, citrus sodas, degreasing cleaning sprays, and hand cleansers.",
+    "known_concerns": "Pure unoxidized limonene is a weak irritant; however, when exposed to air and light, it auto-oxidizes into limonene hydroperoxides, which are potent skin sensitizers and contact allergens.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensively studied terpene. SCCS confirmed that oxidation products are responsible for allergic reactions. Industry adds antioxidants (like tocopherol) to fragrance formulations to prevent peroxide formation.",
+    "exposure_notes": "Skin contact hazard is heightened when products are stored improperly or aged past shelf life.",
+    "regulatory_notes": "Listed on EU Cosmetics Regulation Annex III as one of the mandatory declared allergens; peroxide value must remain below 20 mmol/L.",
+    "source_urls": [
+      "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_102.pdf"
+    ],
+    "last_reviewed": "2026-01-20",
+    "unknown_info": "Oxidation state of the product and concentration of hydroperoxides."
+  },
+  {
+    "canonical_name": "Linalool",
+    "aliases": ["linalool", "3,7-dimethyl-1,6-octadien-3-ol"],
+    "category": "cosmetics",
+    "functions": ["Fragrance Component", "Deodorant Agent"],
+    "common_uses": "Lavender and floral scents in lotions, shampoos, fine fragrances, soaps, and candles.",
+    "known_concerns": "Like limonene, linalool easily oxidizes upon exposure to ambient air into linalool hydroperoxides, which frequently test positive in eczema/dermatitis patients during patch testing.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "SCCS and dermatological studies establish that pure linalool has very low allergic potential, while oxidized forms are frequent causative agents in allergic contact dermatitis.",
+    "exposure_notes": "Individuals diagnosed with linalool allergy should avoid fragranced products listing linalool on the INCI panel.",
+    "regulatory_notes": "Mandatory allergen declaration in the EU when exceeding 10 ppm (leave-on) or 100 ppm (rinse-off).",
+    "source_urls": [
+      "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_102.pdf"
+    ],
+    "last_reviewed": "2026-01-20",
+    "unknown_info": "Extent of auto-oxidation and peroxide levels in the container."
+  },
+  {
+    "canonical_name": "Sodium Chloride",
+    "aliases": ["sodium chloride", "salt", "table salt", "halite"],
+    "category": "cosmetics",
+    "functions": ["Viscosity Increasing Agent", "Flavoring Agent", "Osmotic Stabilizer", "Preservative"],
+    "common_uses": "Thickens surfactant solutions (shampoos, body washes), saline nasal drops, oral care, and culinary seasoning.",
+    "known_concerns": "Topically non-hazardous, although open wounds will sting. In diet, excess sodium intake is a validated risk factor for hypertension and cardiovascular disease.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Fundamental physiological electrolyte. In cosmetics, it electrostatically compacts surfactant micelles, increasing formulation viscosity without requiring complex synthetic polymers.",
+    "exposure_notes": "Well-tolerated on intact skin; essential nutrient in controlled dietary quantities.",
+    "regulatory_notes": "GRAS for food; unrestricted in cosmetic formulation.",
+    "source_urls": [
+      "https://www.fda.gov/food/food-additives-petitions/sodium-reduction"
+    ],
+    "last_reviewed": "2026-01-10",
+    "unknown_info": "Finished solution percentage (typically 1-3% in shampoos)."
+  },
+  {
+    "canonical_name": "Sodium Carbonate",
+    "aliases": ["sodium carbonate", "washing soda", "soda ash", "e500(i)"],
+    "category": "cleaning",
+    "functions": ["Alkalinity Builder", "Water Softener", "Detergent Activator"],
+    "common_uses": "Powdered laundry detergents, automatic dishwasher tablets, pool pH increasers, and floor cleaners.",
+    "known_concerns": "Moderately alkaline (pH ~11 in solution). Can cause skin irritation upon prolonged wet contact and serious eye irritation if splashed or dusted into eyes.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "OECD SIDS and EPA risk assessments show low systemic toxicity, as carbonate and sodium ions are ubiquitous physiological ions. Hazard is strictly local corrosivity/irritancy due to pH.",
+    "exposure_notes": "Inhalation of dust causes respiratory irritation; gloves recommended during heavy manual scrubbing.",
+    "regulatory_notes": "EPA Safer Choice chemical list; standard mandatory eye-irritant precautionary warnings on consumer packaging.",
+    "source_urls": [
+      "https://www.epa.gov/saferchoice",
+      "https://echa.europa.eu/substance-information/-/substanceinfo/100.007.113"
+    ],
+    "last_reviewed": "2026-01-22",
+    "unknown_info": "Diluted solution pH when used according to user-customized water volumes."
+  },
+  {
+    "canonical_name": "Sodium Citrate",
+    "aliases": ["sodium citrate", "trisodium citrate", "e331", "sodium citrate dihydrate"],
+    "category": "cleaning",
+    "functions": ["Chelating Agent", "Builder", "Buffering Agent", "Emulsifying Salt"],
+    "common_uses": "Eco-friendly laundry liquids, dishwasher detergents, cheese processing, and antacid tablets.",
+    "known_concerns": "Minimal toxicological concerns. Binds calcium and magnesium ions safely to prevent soap scum without environmental bioaccumulation.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Readily biodegradable alternative to persistent synthetic chelators like EDTA or phosphates. Fully metabolized in biological systems.",
+    "exposure_notes": "Non-irritating at typical household dilutions.",
+    "regulatory_notes": "EPA Safer Choice approved; FDA GRAS (21 CFR 184.1751).",
+    "source_urls": [
+      "https://www.epa.gov/saferchoice"
+    ],
+    "last_reviewed": "2026-01-15",
+    "unknown_info": "Exact percentage in formulation."
+  },
+  {
+    "canonical_name": "Surfactants",
+    "aliases": ["surfactants", "linear alkylbenzene sulfonate", "alcohol ethoxylate", "non-ionic surfactants", "anionic surfactants"],
+    "category": "cleaning",
+    "functions": ["Detergent", "Wetting Agent", "Soil Dispersant", "Emulsifier"],
+    "common_uses": "Core active cleansing chemistry in dish detergents, laundry detergents, and all-purpose sprays.",
+    "known_concerns": "Can strip skin natural lipids causing irritant contact dermatitis. Certain aquatic ecotoxicity concerns if untreated wastewater reaches surface water bodies.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Extensively evaluated under EU Detergents Regulation 648/2004, which mandates strict ultimate aerobic biodegradability (>60% mineralization within 28 days) for all detergent surfactants.",
+    "exposure_notes": "Wear rubber gloves for prolonged manual dishwashing or high concentration exposure.",
+    "regulatory_notes": "Regulated under EPA TSCA, CPSC, and EU Detergent Directives.",
+    "source_urls": [
+      "https://environment.ec.europa.eu/topics/chemicals/detergents_en",
+      "https://www.epa.gov/saferchoice"
+    ],
+    "last_reviewed": "2026-02-01",
+    "unknown_info": "Specific chemical structure of surfactant blend when listed generically as 'anionic/non-ionic surfactants'."
+  },
+  {
+    "canonical_name": "Enzymes",
+    "aliases": ["enzymes", "protease", "subtilisin", "amylase", "lipase", "cellulase", "mannanase"],
+    "category": "cleaning",
+    "functions": ["Biocatalyst", "Stain Degrading Agent"],
+    "common_uses": "Breaks down protein (blood, egg), starch (pasta), and fat (oil) stains in cold-water laundry and automatic dishwashing.",
+    "known_concerns": "Inhalation of enzyme aerosol or fine powder can cause occupational respiratory sensitization and asthma. In liquid household detergents, encapsulated or liquid stabilized forms virtually eliminate inhalation hazard.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Proteins that degrade rapidly in the environment and do not bioaccumulate. Extensive consumer safety assessments by the International Association for Soaps, Detergents and Maintenance Products (A.I.S.E.) confirm liquid consumer formats do not pose sensitization hazards.",
+    "exposure_notes": "Wash hands after handling laundry pods or concentrated liquid spills.",
+    "regulatory_notes": "Permitted in cleaning products with specific GHS hazard labeling required if spray aerosols can be generated.",
+    "source_urls": [
+      "https://www.aise.eu/our-activities/product-safety-and-innovation/enzymes.aspx"
+    ],
+    "last_reviewed": "2026-01-30",
+    "unknown_info": "Specific enzyme species and enzymatic activity units."
+  },
+  {
+    "canonical_name": "Optical Brighteners",
+    "aliases": ["optical brighteners", "fluorescent whitening agents", "fwas", "disodium distyrylbiphenyl disulfonate", "cbs-x"],
+    "category": "cleaning",
+    "functions": ["Fluorescent Whitening Agent", "Optical Color Enhancer"],
+    "common_uses": "Absorbs ultraviolet light and re-emits blue light to make laundered white fabrics look brighter and less yellow.",
+    "known_concerns": "Deposit onto clothes and remain in contact with skin, which may occasionally trigger irritation in people with sensitive skin or eczema. Some chemistries show slow environmental biodegradation and potential aquatic toxicity.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "MEDIUM",
+    "evidence_summary": "HERA (Health and Environmental Risk Assessment on ingredients of European household cleaning products) concluded CBS-X is safe for consumer skin exposure, but some ecological environmental groups advocate for their reduction due to persistence.",
+    "exposure_notes": "Residual fabric deposition is microscopic, but individuals with severe contact allergies may prefer optical brightener-free detergents.",
+    "regulatory_notes": "Permitted under EPA and EU frameworks, with monitoring for wastewater effluent concentrations.",
+    "source_urls": [
+      "https://www.heraproject.com"
+    ],
+    "last_reviewed": "2026-02-14",
+    "unknown_info": "Specific fluorophore chemical family and deposition rate per wash cycle."
+  },
+  {
+    "canonical_name": "Sodium Percarbonate",
+    "aliases": ["sodium percarbonate", "solid hydrogen peroxide", "sodium carbonate peroxyhydrate", "oxygen bleach"],
+    "category": "cleaning",
+    "functions": ["Oxygen Bleaching Agent", "Stain Remover", "Deodorizer", "Disinfectant"],
+    "common_uses": "Color-safe bleach powders (e.g. OxiClean), stain removers, sanitizers, and dishwasher pods.",
+    "known_concerns": "Strong oxidizing agent in concentrated powder form. Corrosive to eye tissue and irritating to respiratory tract if inhaled. Decomposes into safe sodium carbonate and hydrogen peroxide in water.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Upon dissolving in water, it hydrolyzes into water, oxygen, and sodium carbonate (soda ash). Possesses an outstanding environmental profile compared to sodium hypochlorite (chlorine bleach) as it leaves zero organochlorine residues.",
+    "exposure_notes": "Handle powder with dry hands; keep away from combustible materials.",
+    "regulatory_notes": "EPA Safer Choice ingredient list; GHS Category 1 Serious Eye Damage in pure raw form.",
+    "source_urls": [
+      "https://www.epa.gov/saferchoice",
+      "https://echa.europa.eu/substance-information/-/substanceinfo/100.035.790"
+    ],
+    "last_reviewed": "2026-02-10",
+    "unknown_info": "Available active oxygen percentage."
+  },
+  {
+    "canonical_name": "Zinc Oxide",
+    "aliases": ["zinc oxide", "ci 77947", "calamine active", "zinc white"],
+    "category": "baby",
+    "functions": ["Skin Protectant", "Mineral UV Filter", "Anti-inflammatory Barrier"],
+    "common_uses": "Diaper rash creams, mineral sunscreens, calamine lotions, and soothing ointments.",
+    "known_concerns": "Extremely safe for topical dermal application. In aerosol/spray formats, inhalation of nanoparticles or nano-powder can cause respiratory inflammation. Coral reef ecotoxicity concerns for certain non-nano coated grades.",
+    "concern_level": "LOW CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Forms an impermeable protective physical barrier against moisture, enzymes in fecal matter, and friction. SCCS and FDA have repeatedly affirmed its safety as an OTC skin protectant and physical sunscreen.",
+    "exposure_notes": "Virtually zero percutaneous absorption through intact human skin.",
+    "regulatory_notes": "FDA OTC monograph skin protectant up to 40% (21 CFR 347.10) and sunscreen active up to 25% (21 CFR 352.10).",
+    "source_urls": [
+      "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-drug-facts-label",
+      "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en"
+    ],
+    "last_reviewed": "2026-01-18",
+    "unknown_info": "Particle size distribution (nano vs. non-nano) if not stated on packaging."
+  },
+  {
+    "canonical_name": "Acetaminophen",
+    "aliases": ["acetaminophen", "paracetamol", "apap", "4-acetamidophenol", "n-acetyl-p-aminophenol"],
+    "category": "medicine",
+    "functions": ["Analgesic", "Antipyretic"],
+    "common_uses": "Relief of mild-to-moderate pain, headache, and fever reduction in children and adults.",
+    "known_concerns": "Dose-dependent acute hepatotoxicity (liver failure). Exceeding 4,000 mg in 24 hours (or lower thresholds in chronic alcohol users) causes toxic metabolite NAPQI to deplete glutathione reserves, destroying hepatocytes.",
+    "concern_level": "NEEDS ATTENTION",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Safe and effective when taken strictly as directed on Drug Facts label. Leading cause of acute liver failure in Western nations due to accidental co-ingestion of multiple OTC combination cold remedies.",
+    "exposure_notes": "Critical to calculate pediatric weight-based dosing accurately; never combine with other acetaminophen-containing medications.",
+    "regulatory_notes": "FDA OTC Drug Monograph with mandatory severe liver warning and black box warnings on prescription combination products.",
+    "source_urls": [
+      "https://www.fda.gov/drugs/safe-daily-use-pain-relievers/acetaminophen-information",
+      "https://www.ncbi.nlm.nih.gov/books/NBK482369/"
+    ],
+    "last_reviewed": "2026-02-15",
+    "unknown_info": "Total combined daily intake from all other products the user is currently taking."
+  },
+  {
+    "canonical_name": "Isopropyl Alcohol",
+    "aliases": ["isopropyl alcohol", "isopropanol", "ipa", "propan-2-ol", "rubbing alcohol"],
+    "category": "electronics",
+    "functions": ["Solvent", "Antiseptic", "Degreaser", "Thermal Compound Cleaner"],
+    "common_uses": "Cleaning printed circuit boards, removing thermal paste from CPUs, lens cleaning, and topical disinfection.",
+    "known_concerns": "Highly flammable liquid and vapor. Vapor causes eye irritation, drowsiness, and dizziness. Toxic if ingested, metabolizing into acetone.",
+    "concern_level": "MODERATE CONCERN",
+    "evidence_level": "HIGH",
+    "evidence_summary": "Rapid evaporation leaves virtually no conductive or corrosive residue, making it the industry standard for electronic hardware maintenance.",
+    "exposure_notes": "Use only in well-ventilated spaces away from open flames, sparks, and energized electrical contacts.",
+    "regulatory_notes": "OSHA PEL 400 ppm; EPA and REACH compliant solvent.",
+    "source_urls": [
+      "https://www.cdc.gov/niosh/npg/npgd0359.html"
+    ],
+    "last_reviewed": "2026-01-25",
+    "unknown_info": "Water content purity (e.g. 70%, 91%, 99.9%)."
+  }
+]

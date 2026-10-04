@@ -1,0 +1,18 @@
+{
+  "id": "automotive",
+  "name": "Automotive & Maintenance",
+  "description": "Vehicle fluids, lubricants, detailing agents, and mechanical maintenance chemicals",
+  "subcategories": [
+    "Car shampoo",
+    "Coolant",
+    "Lubricants",
+    "Polishes",
+    "Degreasers",
+    "Windshield fluid"
+  ],
+  "keywords": [
+    "motor oil", "ethylene glycol", "coolant", "antifreeze", "lubricant", "degreaser",
+    "windshield washer", "car wash", "wax", "synthetic blend", "viscosity"
+  ],
+  "regulatory_framework": "DOT / OSHA Hazard Communication / ASTM Standards"
+}

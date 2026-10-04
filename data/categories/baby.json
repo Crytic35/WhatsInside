@@ -1,0 +1,19 @@
+{
+  "id": "baby",
+  "name": "Baby & Children's Products",
+  "description": "Formulations specialized for infant and child skin, hygiene, care, and nutrition",
+  "subcategories": [
+    "Baby shampoo",
+    "Baby soap",
+    "Baby lotion",
+    "Baby wipes",
+    "Diaper cream",
+    "Baby food",
+    "Children's toothpaste"
+  ],
+  "keywords": [
+    "baby", "infant", "toddler", "tear-free", "hypoallergenic", "pediatrician tested",
+    "zinc oxide", "diaper rash", "gentle", "mild"
+  ],
+  "regulatory_framework": "CPSC / FDA Infant Care Guidelines / AAP Clinical Guidance"
+}

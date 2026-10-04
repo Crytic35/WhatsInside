@@ -1,0 +1,24 @@
+{
+  "id": "cleaning",
+  "name": "Cleaning & Household",
+  "description": "Household cleaners, detergents, sanitizers, and surface care formulations",
+  "subcategories": [
+    "Laundry detergent",
+    "Dishwashing liquid",
+    "Dishwasher tablets",
+    "Floor cleaner",
+    "Bathroom cleaner",
+    "Glass cleaner",
+    "Toilet cleaner",
+    "Disinfectant",
+    "Bleach",
+    "Fabric softener",
+    "Stain remover",
+    "Air freshener"
+  ],
+  "keywords": [
+    "detergent", "cleaner", "surfactant", "bleach", "disinfectant", "sodium carbonate", "percarbonate",
+    "stain", "laundry", "wash", "rinse", "caution: eye irritant", "keep out of reach of children"
+  ],
+  "regulatory_framework": "EPA Safer Choice / CPSC Consumer Product Safety Act / EU Detergent Regulation"
+}

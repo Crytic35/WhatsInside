@@ -1,0 +1,16 @@
+{
+  "id": "pet",
+  "name": "Pet Products",
+  "description": "Formulations and nutrition for canine, feline, and other domestic companion animals",
+  "subcategories": [
+    "Pet food",
+    "Pet treats",
+    "Pet shampoo",
+    "Pet dental products"
+  ],
+  "keywords": [
+    "dog", "cat", "pet", "crude protein", "crude fat", "veterinarian", "aafco",
+    "flea", "coat", "canine", "feline", "animal use only"
+  ],
+  "regulatory_framework": "AAFCO Model Regulations / FDA Center for Veterinary Medicine (CVM)"
+}

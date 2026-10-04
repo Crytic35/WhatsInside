@@ -1,0 +1,18 @@
+{
+  "id": "craft",
+  "name": "Stationery / Craft / Art",
+  "description": "Artist media, colorants, pens, adhesives, and craft studio consumables",
+  "subcategories": [
+    "Paint",
+    "Markers",
+    "Adhesives",
+    "Inks",
+    "Dyes",
+    "Correction fluids"
+  ],
+  "keywords": [
+    "acrylic", "pigment", "gouache", "watercolor", "binder", "pva glue", "ink",
+    "non-toxic", "astm d-4236", "artist quality", "varnish"
+  ],
+  "regulatory_framework": "LHAMA / ASTM D-4236 Art Materials Safety"
+}

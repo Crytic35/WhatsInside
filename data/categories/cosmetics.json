@@ -1,0 +1,26 @@
+{
+  "id": "cosmetics",
+  "name": "Personal Care & Cosmetics",
+  "description": "Topical body, hair, skin, dental, and personal grooming formulations",
+  "subcategories": [
+    "Shampoo",
+    "Conditioner",
+    "Soap",
+    "Body wash",
+    "Face wash",
+    "Moisturizer",
+    "Sunscreen",
+    "Serum",
+    "Deodorant",
+    "Perfume",
+    "Makeup",
+    "Toothpaste",
+    "Mouthwash",
+    "Shaving products"
+  ],
+  "keywords": [
+    "aqua", "water", "sodium laureth sulfate", "glycerin", "fragrance", "parfum", "cetearyl alcohol",
+    "lotion", "cream", "dermatologist", "topical", "rinse", "shampoo", "skin", "hair", "spf"
+  ],
+  "regulatory_framework": "FDA Cosmetics Regulations / EU Cosmetics Regulation (EC) No 1223/2009"
+}
