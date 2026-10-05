@@ -3,8 +3,22 @@ from pathlib import Path
 from pydantic import BaseModel
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = BASE_DIR / "data"
-SAMPLE_DATA_DIR = BASE_DIR / "sample_data"
+
+
+def _find_dir(dir_name: str) -> Path:
+    # 1. Check repo root (local development / monorepo)
+    repo_level = BASE_DIR / dir_name
+    if repo_level.exists():
+        return repo_level
+    # 2. Check inside backend/ (isolated service root)
+    backend_level = Path(__file__).resolve().parent.parent / dir_name
+    if backend_level.exists():
+        return backend_level
+    return repo_level
+
+
+DATA_DIR = _find_dir("data")
+SAMPLE_DATA_DIR = _find_dir("sample_data")
 
 
 def _default_db_url() -> str:
