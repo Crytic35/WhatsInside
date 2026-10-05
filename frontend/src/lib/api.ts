@@ -6,7 +6,20 @@ import type {
   DemoProduct 
 } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+/**
+ * Base URL for all API calls.
+ *
+ * Local development:
+ *   - If VITE_API_URL is set (e.g. http://localhost:8000), fetch calls use that.
+ *   - If VITE_API_URL is not set, API_BASE is '' and the Vite dev-server proxy
+ *     transparently forwards /api/* to http://localhost:8000.
+ *
+ * Production (Vercel):
+ *   - VITE_API_URL should NOT be set (or set to '').
+ *   - All /api/* calls are relative URLs, which Vercel routes to api/index.py.
+ *   - No localhost references exist in production bundles.
+ */
+const API_BASE = import.meta.env.VITE_API_URL ?? '';
 
 export async function fetchOllamaStatus(): Promise<OllamaStatus> {
   try {

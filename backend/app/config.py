@@ -6,25 +6,48 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
 SAMPLE_DATA_DIR = BASE_DIR / "sample_data"
 
+
+def _default_db_url() -> str:
+    """
+    Return the SQLite URL appropriate for the current runtime environment.
+
+    - Vercel (and similar read-only filesystems): use /tmp which is the only
+      writable directory available in serverless functions.
+    - Local development: use the repo root as before.
+
+    The VERCEL environment variable is set automatically by the Vercel platform
+    (value "1") so no manual configuration is needed.
+    """
+    if os.getenv("VERCEL"):
+        return "sqlite:////tmp/whats_inside.db"
+    return f"sqlite:///{BASE_DIR / 'whats_inside.db'}"
+
+
 class Settings(BaseModel):
     PROJECT_NAME: str = "WHAT'S INSIDE?"
     TAGLINE: str = "Understand what you're actually buying."
     VERSION: str = "1.0.0"
-    
+
     # Ollama Configuration
+    # NOTE: Ollama/Gemma runs locally on the developer's machine.
+    # On Vercel these env vars will be absent, Ollama will be unreachable,
+    # and the backend will automatically fall back to Demo Mode for all requests.
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "gemma4:12b")
     OLLAMA_TIMEOUT_SECONDS: float = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "120.0"))
-    
+
     # Database
-    DATABASE_URL: str = os.getenv("DATABASE_URL", f"sqlite:///{BASE_DIR / 'whats_inside.db'}")
-    
-    # Paths
+    # Reads DATABASE_URL from env first; falls back to _default_db_url()
+    # which selects /tmp on Vercel or the repo-root file locally.
+    DATABASE_URL: str = os.getenv("DATABASE_URL", _default_db_url())
+
+    # Paths — static read-only files bundled with the repo
     CATEGORIES_DIR: Path = DATA_DIR / "categories"
     INGREDIENTS_FILE: Path = DATA_DIR / "ingredients" / "seed_ingredients.json"
     DEMO_PRODUCTS_FILE: Path = SAMPLE_DATA_DIR / "demo_products.json"
-    
+
     # Demo Mode Default
     DEMO_MODE_FALLBACK: bool = True
+
 
 settings = Settings()
